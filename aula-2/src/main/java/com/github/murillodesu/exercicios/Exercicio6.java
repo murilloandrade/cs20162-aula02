@@ -2,7 +2,7 @@ package com.github.murillodesu.exercicios;
 
 public class Exercicio6 {
 
-    public static boolean Primo(int n) {
+    public static boolean primo(int n) {
         if (n <= 1) {
             throw new IllegalArgumentException("Errou.");
         }
